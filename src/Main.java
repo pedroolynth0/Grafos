@@ -65,8 +65,8 @@ public class Main {
         //Exibir informações do grafo
         System.out.println("(i) Grau de saída: " + grafo.grauDeEntrada(numVertice) + "\n");
         System.out.println("(ii) Grau de entrada: " + grafo.grauDeSaida(numVertice) + "\n");
-        System.out.println("(iii) Conjunto de sucessores: " + grafo.predecessores(numVertice) + "\n");
-        System.out.println("(iv) Conjunto de predecessores: " + grafo.sucessores(numVertice) + "\n");
+        System.out.println("(iii) Conjunto de sucessores: " + grafo.sucessores(numVertice) + "\n");
+        System.out.println("(iv) Conjunto de predecessores: " + grafo.predecessores(numVertice) + "\n");
         System.out.println("");
         grafo.buscaProfundidade(1); 
         grafo.printArestas();
